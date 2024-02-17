@@ -29,13 +29,13 @@ function login(){
     const password=document.getElementById("password").value
     if (username === "admin" && password === "123") {
         setcookie("loginadmin", username, 3);
-        window.location.href = "index.html";
+        window.location.href = "./index";
     }else alert("please enter a valid username or password");
 }
 // logout
 function logout(){
     deteleCookie("loginadmin")
-    window.location.href = "login.html";
+    window.location.href = "./login";
 }
 // check login
 
