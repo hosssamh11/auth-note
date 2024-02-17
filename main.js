@@ -4,7 +4,7 @@ window.onload= function() {
 
     if (!loginadmin || loginadmin === "0") {
         // If the cookie doesn't exist or has a value of "0", redirect to the login page
-        window.location.href = "./login";
+        window.location.href = "login.html";
     }
 }
 let task=document.querySelector(".taskvalue")
